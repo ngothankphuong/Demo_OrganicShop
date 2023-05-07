@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth !important;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif' !important;
+}
+
+body{
+    margin: auto;
+}
+
+main {
+    margin-top: 84px;
+}
+
+.banner{
+   margin-bottom: 40px;
+   position: relative;
+   width: 100%;
+
+}
+.banner img{
+    width: 100%;
+    height: 160px;
+}
+.tieude{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 55px;
+    display: flex;
+    justify-content: center;
+}
+.tieude-trang {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 50px;
+   color: #2f3640;
+   margin: 0;
+}
+
+.banner p{
+    font-weight: 700;
+   font-size: 15px;
+   line-height: 10px;
+   color: #2f3640;
+   margin: 0;
+   text-align: center;
+   position: absolute;
+   display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 105px;
+}
+
+
+.tieude-chu-y{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    top: 100px;
+    color: #2f3640;
+    margin: 10px;
+}
+.thongtin{
+    margin-left: 20px;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+   display: flex;
+}
+.thongtin-tieude{
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin-bottom: 25px;
+    max-width: 400px;
+    margin-left: 150px;
+}
+.form-account label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-account input{
+    width: 440px;
+    outline: none;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.form-account .form-gr{
+    margin: 25px 0;
+}
+.from-button{
+    display: block;
+    margin-top: 25px;
+}
+.button-submit{
+    padding: 9px 17px;
+    font-size: 16px;
+    background-color: #91ad41;
+    color: #fff;
+    /* border: outset; */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.option{ 
+    display: block;
+    width: 480px;
+    padding: 10px 20px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 30px ;
+    margin-bottom: 15px; 
+}
+
+.texrabox{
+    display: block;
+    width: 100%;
+    padding: 16px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+.thongtin{
+    /* border: 1px solid rgb(216, 216, 216); */
+    border-radius: 10px ;
+    padding: 20px;
+    background-position: 380px 0;
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.thongtin-form {
+    flex: 1;
+}
+
+#map {
+    flex: 1;
+}
+
+.main__content--contact__ul  {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.main__content--contact__ul i[class*="fa-"] {
+    min-width: 30px;
+}
+
+.main__content {
+    font-size: 17px;
+    color: #888;
+    line-height: 25px;
+}
+
+
+/* tablet && mobile */
+@media (max-width : 63.9375em)  {
+
+}
+
+/* tablet */
+@media (max-width : 63.9375em)  {
+
+}
+
+/* mobile */
+@media (max-width : 46.1875em) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #map {
+        display: none;
+    }
+
+    .thongtin {
+        display: block;
+    }
+
+    .form-gr >  input,
+    .form-gr > select {
+        width: 350px;
+    }
+
+    .texrabox {
+        max-width: 385px;
+        max-height: 800px;
+    }
+
+}

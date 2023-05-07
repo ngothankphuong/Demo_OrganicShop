@@ -1,0 +1,66 @@
+.header__banner{
+    display: none !important;
+}
+
+.main{
+    margin-top: 84px;
+}
+
+.main__slider {
+    background: url('../img/bg_breadcrumb-gioi-thieu.png') top center / cover no-repeat ;
+    height: 160px;
+    width: 100%;
+}
+
+.main__slider__content {
+    text-align: center;
+    line-height: 160px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 30px 140px;
+}
+
+.main__content-2 ,
+.main__content-3{
+    margin: 15px 0;
+}
+
+.main__content__ul {
+    margin: 0 48px;
+}
+
+.main__content {
+    margin: 0 140px;
+    font-size: 17px;
+    color: #888;
+    line-height: 25px;
+}
+
+
+/* tablet && mobile */
+@media (max-width : 63.9375em)  {
+
+}
+
+/* tablet */
+@media (max-width : 63.9375em)  {
+
+}
+
+/* mobile */
+@media (max-width : 46.1875em) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main__content {
+        margin: 0 10px;
+    }
+
+}

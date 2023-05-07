@@ -1,0 +1,133 @@
+@media (max-width : 46.1875em) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .display-block {
+        display: block !important;
+    }
+
+    .display-none{
+        display: none !important;
+    }
+
+    /* header */
+    #svg-logo{
+        margin-left: 10px;
+    }
+
+    .dropdown-content__a {
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    #header_container {
+        display: inline-block;
+    }
+
+    .navbar {
+        background-color: #fff;
+    }
+
+    .navbar__a {
+        display: block !important;
+        line-height: 0 !important;
+    }
+
+    .navbar__ul{
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar__li,
+    .header__search-user {
+        display: block;
+    }
+
+    .active_menu {
+        display: block !important;
+    }
+
+    #menu {
+        display: block;
+        font-size: 28px;
+        padding: 10px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    .header--user {
+        font-size: 23px;
+    }
+    
+    /* footer */
+    .footer__new-letter {
+        display: block;
+        padding: 50px 20px;
+    }
+
+    .footer__new-letter__form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .footer__new-letter__input {
+        flex: 70%;
+    }
+
+    .footer__new-letter__btn {
+        flex: 30%;
+    }
+
+    .footer__new-letter__input > input {
+        width: 120%;
+        padding: 10px;
+    }
+
+    .topbrand {
+        display: none;
+    }
+
+    .footer__new-letter__btn > button {
+        margin-left: -13px !important;
+        padding: 12px;
+    }
+
+
+    .footer-main__container__content  {
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+
+
+    .footer-main__container__items {
+        max-width: 100%;
+        justify-content: space-between;
+        margin: 15px 0;
+    }
+
+    .footer-main__container__items--contact {
+        display: flex;
+    }
+
+    .footer-main__container__items__ul {
+        margin-top: 0;
+    }
+
+    .footer-main__container__items__li {
+        font-size: 20px;
+    }
+
+}
